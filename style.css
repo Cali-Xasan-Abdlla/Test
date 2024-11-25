@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headar{
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    /* height: 100px; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+       
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 10px;
+   display: inline;
+   font-size: 20px;
+   
+    }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+   }
+
+.btn{
+    background-color: #133655;
+    padding: 7px 30px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+}
+.bton{
+  border: 3px blue solid;
+  background-color: white;
+    padding: 7px 20px;
+    font-size: 15px;
+    color: blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+.butons{
+    display: flex;
+}
+.butons p{
+    margin-top: 20px;
+}
+
+.contect{
+    margin-top: 5%;
+    margin-left: 11%;
+    position: relative;
+}
+.contect h1{
+    font-size: 60px;
+}
+
+.btn1{
+    background-color: #133655;;
+    padding: 8px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+}
+.bton2{
+  border: 3px blue solid;
+  background-color: white;
+    padding: 15px;
+    font-size: 15px;
+    color: blue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+h6{
+    font-size: 15px;
+   padding-bottom: 17px;
+}
+h5{
+    color: blue;
+}
+
+.iamge{
+    width: 490px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+
+}
+
+.service{
+   margin-top: 6%;
+   text-align: center;
+   letter-spacing: 1px;
+}
+
+.icons{
+   display: flex;
+   justify-content: center;
+   
+   gap: 25px;
+   margin-top: 5%;
+}
+
+.iconbox img{
+    width: 100px;
+}
